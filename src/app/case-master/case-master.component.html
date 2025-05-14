@@ -1,0 +1,136 @@
+   <div class="container">
+        <div class="form-container mt-5">
+            <h2 class="form-title">CASE MASTER</h2>
+            <h5 class="text-center mb-4">CLIENT DETAILS</h5>
+
+            <form id="caseMasterForm">
+                <!-- Auto-generated Case No -->
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">CASE NO</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Auto-generated" disabled>
+                    </div>
+                </div>
+
+                <!-- Company & Advocate -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="company-name" class="form-label">COMPANY NAME</label>
+                        <select id="company-name" class="form-select" required>
+                            <option selected disabled>Select Company</option>
+                            <option>Company A</option>
+                            <option>Company B</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="advocate" class="form-label">ADVOCATE</label>
+                        <select id="advocate" class="form-select" required>
+                            <option selected disabled>Select Advocate</option>
+                            <option>Advocate 1</option>
+                            <option>Advocate 2</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Client Details -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="client-name" class="form-label">CLIENT NAME</label>
+                        <input type="text" id="client-name" class="form-control" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="client-phone" class="form-label">CLIENT PHONE NO</label>
+                        <input type="tel" id="client-phone" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- Branch -->
+                <div class="mb-3">
+                    <label for="branch" class="form-label">BRANCH</label>
+                    <input type="text" id="branch" class="form-control">
+                </div>
+
+                <!-- Address Details -->
+                <div class="mb-3">
+                    <label for="client-address" class="form-label">CLIENT ADDRESS</label>
+                    <textarea id="client-address" class="form-control" rows="2" required></textarea>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="city" class="form-label">CITY</label>
+                        <input type="text" id="city" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="state" class="form-label">STATE</label>
+                        <input type="text" id="state" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="post-office" class="form-label">POST OFFICE</label>
+                        <input type="text" id="post-office" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="police-station" class="form-label">POLICE STATION</label>
+                        <input type="text" id="police-station" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="pincode" class="form-label">PIN CODE</label>
+                        <input type="text" id="pincode" class="form-control">
+                    </div>
+                </div>
+
+                <!-- Cheque & Guarantor Info -->
+                <div class="mb-3">
+                    <label for="cheque-amount" class="form-label">CHEQUE AMOUNT</label>
+                    <input type="number" id="cheque-amount" class="form-control" required>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="guarantor-name" class="form-label">GUARANTER NAME</label>
+                        <input type="text" id="guarantor-name" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="guarantor-phone" class="form-label">GUARANTER PHONE NO</label>
+                        <input type="tel" id="guarantor-phone" class="form-control">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="guarantor-address" class="form-label">GUARANTER ADDRESS</label>
+                    <textarea id="guarantor-address" class="form-control" rows="2"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="guarantor-cheque" class="form-label">GUARANTER CHEQUE AMOUNT</label>
+                    <input type="number" id="guarantor-cheque" class="form-control">
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="guarantor-post" class="form-label">POST OFFICE</label>
+                        <input type="text" id="guarantor-post" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="guarantor-police" class="form-label">POLICE STATION</label>
+                        <input type="text" id="guarantor-police" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="guarantor-pincode" class="form-label">PINCODE</label>
+                        <input type="text" id="guarantor-pincode" class="form-control">
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="form-buttons">
+                    <button type="reset" class="btn btn-reset">RESET</button>
+                    <button type="submit" class="btn mx-2"
+                        style="background-color: #f03c02; color: white;">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+
+    </div>

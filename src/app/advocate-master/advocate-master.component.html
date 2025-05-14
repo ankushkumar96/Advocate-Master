@@ -1,0 +1,198 @@
+<div class="container">
+        <div class="form-container">
+            <h2 class="form-title">ADVOCATE MASTER</h2>
+
+            <form id="advocateForm">
+                <!-- Personal Information Section -->
+                <div class="row mb-1">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">NAME</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">EMAIL</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-1">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">PHONE NO</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="court-address" class="form-label">COURT ADDRESS</label>
+                            <input type="text" class="form-control" id="court-address" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ID Information Section -->
+                <div class="row mb-1">
+                    <div class="col-md-4">
+                        <div class="mb-3">
+                            <label for="gst" class="form-label">GST</label>
+                            <input type="text" class="form-control" id="gst">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mb-3">
+                            <label for="pan" class="form-label">PAN CARD</label>
+                            <input type="text" class="form-control" id="pan" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mb-3">
+                            <label for="aadhar" class="form-label">ID AADHAR</label>
+                            <input type="text" class="form-control" id="aadhar" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <label for="address" class="form-label">ADDRESS</label>
+                    <textarea class="form-control" id="address" rows="2" required></textarea>
+                </div>
+
+                <!-- Upload Section - Two uploads per row -->
+                <div class="upload-section">
+                    <div class="row">
+                        <!-- First Row of Uploads -->
+                        <div class="col-md-6 upload-container">
+                            <label class="upload-label">NOTICE TEMPLATE</label>
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="notice-template">
+                                <!-- <label class="input-group-text" for="notice-template">UPLOAD</label> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 upload-container">
+                            <label class="upload-label">PETITION TEMPLATE</label>
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="petition-template">
+                                <!-- <label class="input-group-text" for="petition-template">UPLOAD</label> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Second Row of Uploads -->
+                        <div class="col-md-6 upload-container">
+                            <label class="upload-label">GR + NOTICE TEMPLATE</label>
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="gr-notice-template">
+                                <!-- <label class="input-group-text" for="gr-notice-template">UPLOAD</label> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 upload-container">
+                            <label class="upload-label">GR + PETITION TEMPLATE</label>
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="gr-petition-template">
+                                <!-- <label class="input-group-text" for="gr-petition-template">UPLOAD</label> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+                <h4 class="text-center mb-3">Fees and Court Expenses</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>FEES</th>
+                                <th width="400">FEES</th>
+                                <th width="400" >COURT EXPENSES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>NOTICE</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>PETITION</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>BNS</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>SUMMON 1</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>SUMMON 2</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>SUMMON 3</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>BW 1</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>BW 2</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>BW 3</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>NBW 1</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>NBW 2</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                            <tr>
+                                <td>NBW 3</td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                                <td><input type="number" class="form-control form-control-sm" placeholder="Amount"></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="text-center fw-bold">
+                                    WITHDRAWAL (10% OF CHEQUE AMOUNT - ALL ABOVE FEES PAID)
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <!-- Form Buttons: Reset and Submit -->
+                <div class="form-buttons">
+                    <button type="submit" class="btn mx-2" style="background-color: #f03c02; color: white;">SUBMIT
+                    </button>
+                    <button type="reset" class="btn btn-reset ">RESET </button>
+                </div>
+
+            </form>
+        </div>
+    </div>

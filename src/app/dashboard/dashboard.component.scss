@@ -1,0 +1,55 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 220px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.stat mat-card-content {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.recent-cases {
+  margin-top: 20px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
+.status.active {
+  background-color: #2196F3;
+}
+
+.status.notice\ sent {
+  background-color: #FF9800;
+}
+
+.status.hearing {
+  background-color: #9C27B0;
+}
+
+.status.resolved {
+  background-color: #4CAF50;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

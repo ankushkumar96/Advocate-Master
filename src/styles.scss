@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.b1 {
+    border: 1px solid green;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+    font-size: 28px;
+}
+
+.upload-section {
+    margin-top: 20px;
+}
+
+.upload-label,
+.form-label {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.form-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-buttons .btn {
+    width: 150px;
+}
+
+.upload-container {
+    margin-bottom: 20px;
+}
+
+.btn-reset {
+    background-color: #6c757d ;
+    color: white;
+}
+
+.btn-reset:hover {
+    background-color: #5a6268;
+    color: white;
+}
+
+table tr td {
+    .edit-btn{
+        cursor: pointer;
+    }
+}
